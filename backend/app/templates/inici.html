@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resum - MyFinance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <!-- Required for Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4c4c4c;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            max-width: 1600px;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            margin: 0 10px;
+        }
+
+        a {
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #bfbfbf;
+        }
+
+        .nav-right {
+            margin-left: auto;
+        }
+
+        main {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 25px;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .kpi-container {
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1250px;
+            margin: 0 auto;
+        }
+
+        .kpi {
+            flex: 1;
+            margin-right: 20px;
+            border: 4px solid #4c4c4c;
+            /* Cambiar el color del borde */
+            background-color: white;
+            border-radius: 10px;
+            flex-direction: row;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            /* Añadir transición */
+        }
+
+        .kpi:hover {
+            transform: translateY(-5px);
+            border-color: #4BC0C0;
+            /* Cambiar el color del borde al pasar el cursor */
+        }
+
+        .kpi-description {
+            font-size: 20px;
+            /* Cambiar el tamaño del texto */
+            font-weight: 500;
+            color: #444;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .kpi-value {
+            font-size: 30px;
+            /* Cambiar el tamaño del texto */
+            font-weight: bold;
+            color: #4BC0C0;
+            text-align: center;
+        }
+
+        .kpi-value2 {
+            font-size: 30px;
+            /* Cambiar el tamaño del texto */
+            font-weight: bold;
+            color: #ED1F4B;
+            text-align: center;
+        }
+
+        .kpi-value3 {
+            font-size: 30px;
+            /* Cambiar el tamaño del texto */
+            font-weight: bold;
+            color: #12AA33;
+            text-align: center;
+        }
+
+        .kpi-value4 {
+            font-size: 30px;
+            font-weight: bold;
+            color: #ed711f;
+            text-align: center;
+        }
+
+
+        .chart-container {
+            width: 100%;
+            max-width: 1250px;
+            white-space: nowrap;
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .chart-container1 {
+            width: 100%;
+            max-width: 800px;
+            overflow-x: scroll;
+            white-space: nowrap;
+            flex: 1;
+            margin: 20 10px;
+        }
+
+        .chart-container2 {
+            width: 100%;
+            max-width: 350px;
+            white-space: nowrap;
+            flex: 1;
+            margin: 40px 10px;
+        }
+
+        .charts-row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .chart-container1::-webkit-scrollbar {
+            width: 12px;
+            height: 12px;
+        }
+
+        .chart-container1::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+
+        .chart-container1::-webkit-scrollbar-track {
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .chart-container1::-webkit-scrollbar-corner {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{ url_for('inici') }}">MyFinance</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('new_transaction_page') }}">Nou moviment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('new_data_page') }}">Pujar noves dades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('transaccions') }}">Accedir a la BBDD</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('logout') }}">Tancar sessió</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Resum del mes actual</h1>
+        <div class="d-flex justify-content-left mb-4">
+            <button id="toggle-view" class="btn btn-outline-secondary" data-view="monthly"
+                style="position: absolute; margin-left: -600px;">Canviar a visió
+                total</button>
+        </div>
+        <div class="kpi-container">
+            <div class="kpi">
+                <div class="kpi-description">Estalvi actual</div>
+                <div class="kpi-value">{{ ahorro_mensual }} €</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-description">Gast promig diari</div>
+                <div class="kpi-value4">{{ gasto_promedio_diario_mensual }} €</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-description">Gasts</div>
+                <div class="kpi-value2">{{ total_gastos }} €</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-description">Ingressos</div>
+                <div class="kpi-value3">{{ total_ingresos }} €</div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <div class="chart-container">
+            <div class="charts-row">
+                <div class="chart-container1" id="myChartContainer">
+                    <div style="width: 2400px;">
+                        <canvas id="balance-chart" style="width: 100%; height: 400px;"></canvas>
+                        <script>
+                            function formatNumber(number) {
+                                return number.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ".").replace('.', ',');
+                            }
+                            document.addEventListener('DOMContentLoaded', function () {
+                                const labels = JSON.parse('{{ months_labels | tojson | safe }}');
+                                const data = JSON.parse('{{ balance_data | tojson | safe }}');
+
+                                const ctx = document.getElementById('balance-chart').getContext('2d');
+                                const chart = new Chart(ctx, {
+                                    type: 'bar',
+                                    data: {
+                                        labels: labels,
+                                        datasets: [{
+                                            label: 'Balanç (Ingressos - Gasts)',
+                                            data: data,
+                                            backgroundColor: 'rgba(75, 192, 192)',
+                                            borderColor: 'rgba(75, 192, 192, 1)',
+                                            borderWidth: 1
+                                        }]
+                                    },
+                                    options: {
+                                        scales: {
+                                            x: {
+                                                grid: {
+                                                    display: false
+                                                }
+                                            },
+                                            y: {
+                                                position: 'right',
+                                                grid: {
+                                                    display: true
+                                                }, title: {
+                                                    display: true,
+                                                    text: 'Balanç mensual'
+                                                }, ticks: {
+                                                    callback: function (value, index, values) {
+                                                        return value + '€';
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        plugins: {
+                                            legend: {
+                                                display: false
+                                            }
+                                        }
+                                    }
+                                });
+
+                                const chartContainer = document.getElementById('myChartContainer');
+                                chartContainer.scrollLeft = chartContainer.scrollWidth - chartContainer.clientWidth;
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="chart-container2" id="pieChartContainer">
+                    <div>
+                        <canvas id="expense-pie-chart" style="width: 100%; height: 400px;"></canvas>
+                        <script>
+                            function getTopSixCategories(expenseData) {
+                                let sortedExpenseData = Object.entries(expenseData).sort((a, b) => b[1] - a[1]);
+                                let topSixData = sortedExpenseData.slice(0, 6);
+                                let otherData = sortedExpenseData.slice(6);
+
+                                let otherTotal = 0;
+                                otherData.forEach((item) => {
+                                    otherTotal += item[1];
+                                });
+
+                                if (otherTotal > 0) {
+                                    topSixData.push(["La resta", otherTotal]);
+                                }
+
+                                let labels = topSixData.map((item) => item[0]);
+                                let values = topSixData.map((item) => item[1]);
+
+                                return { labels, values };
+                            }
+                            let topSixCurrentMonth, topSixTotal;
+                            let pieChart;
+
+                            document.addEventListener('DOMContentLoaded', function () {
+                                const expenseDataCurrentMonth = JSON.parse('{{ expense_data_current_month | tojson | safe }}');
+                                const expenseDataTotal = JSON.parse('{{ expense_data_total | tojson | safe }}');
+
+                                topSixCurrentMonth = getTopSixCategories(expenseDataCurrentMonth);
+                                topSixTotal = getTopSixCategories(expenseDataTotal);
+
+                                const pieCtx = document.getElementById('expense-pie-chart').getContext('2d');
+                                pieChart = new Chart(pieCtx, {
+                                    type: 'pie',
+                                    data: {
+                                        labels: topSixCurrentMonth.labels,
+                                        datasets: [{
+                                            data: topSixCurrentMonth.values,
+                                            backgroundColor: [
+                                                'rgba(255, 153, 153, 0.8)', // rosa pastel intenso
+                                                'rgba(102, 178, 255, 0.8)', // azul pastel intenso
+                                                'rgba(255, 204, 102, 0.8)', // amarillo pastel intenso
+                                                'rgba(102, 255, 204, 0.8)', // verde pastel intenso
+                                                'rgba(204, 153, 255, 0.8)', // lavanda pastel intenso
+                                                'rgba(255, 178, 102, 0.8)', // melocotón pastel intenso
+                                                'rgba(153, 255, 153, 0.8)', // verde menta pastel intenso
+                                                'rgba(255, 102, 102, 0.8)' // rojo pastel intenso
+                                            ]
+                                        }]
+                                    },
+                                    options: {
+                                        plugins: {
+                                            title: {
+                                                display: true,
+                                                text: 'Gasts per categories'
+                                            },
+                                            legend: {
+                                                position: 'bottom',
+                                                display: true
+                                            }
+                                        }
+                                    }
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        $(document).ready(function () {
+            $("#toggle-view").on("click", function () {
+                const kpiValues = $(".kpi-value, .kpi-value2, .kpi-value3, .kpi-value4");
+                const view = $(this).data("view");
+                const h1Title = $("h1");
+
+                const gastoPromedioDiarioMensual = JSON.parse('{{ gasto_promedio_diario_mensual | tojson | safe }}');
+                const gastoPromedioDiarioTotal = JSON.parse('{{ gasto_promedio_diario_total | tojson | safe }}');
+                const ahorroMensual = JSON.parse('{{ ahorro_mensual | tojson | safe }}');
+                const totalGastos = JSON.parse('{{ total_gastos | tojson | safe }}');
+                const totalIngresos = JSON.parse('{{ total_ingresos | tojson | safe }}');
+                const ahorroTotal = JSON.parse('{{ ahorro_total | tojson | safe }}');
+                const totalGastosAll = JSON.parse('{{ total_gastos_all | tojson | safe }}');
+                const totalIngresosAll = JSON.parse('{{ total_ingresos_all | tojson | safe }}');
+
+                if (view === "monthly") {
+                    kpiValues.eq(0).text(ahorroTotal + " €");
+                    kpiValues.eq(1).text(gastoPromedioDiarioTotal + " €");
+                    kpiValues.eq(2).text(totalGastosAll + " €");
+                    kpiValues.eq(3).text(totalIngresosAll + " €");
+                    $(this).text("Canviar a visió mensual");
+                    $(this).data("view", "total");
+                    pieChart.data.labels = topSixTotal.labels;
+                    pieChart.data.datasets[0].data = topSixTotal.values;
+                    pieChart.update();
+                    h1Title.text("Resum del total de moviments");
+
+                } else {
+                    kpiValues.eq(0).text(ahorroMensual + " €");
+                    kpiValues.eq(1).text(gastoPromedioDiarioMensual + " €");
+                    kpiValues.eq(2).text(totalGastos + " €");
+                    kpiValues.eq(3).text(totalIngresos + " €");
+                    $(this).text("Canviar a visió total");
+                    $(this).data("view", "monthly");
+                    pieChart.data.labels = topSixCurrentMonth.labels;
+                    pieChart.data.datasets[0].data = topSixCurrentMonth.values;
+                    pieChart.update();
+                    h1Title.text("Resum del mes actual"); // Agrega esta línea
+                }
+            });
+        });
+    </script>
+
+</body>

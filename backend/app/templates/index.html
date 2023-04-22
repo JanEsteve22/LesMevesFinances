@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+    <script>
+        function onLoadCallback() {
+            gapi.load('auth2', function () {
+                gapi.auth2.init();
+            });
+        }
+
+        function onSignIn(googleUser) {
+            // Obtén el objeto de perfil del usuario
+            var profile = googleUser.getBasicProfile();
+
+            // Enviar información al backend para validar y crear el usuario
+            // en tu base de datos si es necesario
+        }
+
+        function onFailure(error) {
+            console.log(error);
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="google-signin-client_id"
+        content="245206733798-ahluj8dcti97t8nmulvq3fcbeg2trudb.apps.googleusercontent.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sessió</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+    </style>
+    <!-- Añade aquí tus enlaces a archivos CSS y JavaScript -->
+</head>
+
+<body>
+    <div class="login-container">
+        <h1>Benvingut a MyFinance</h1>
+        <!-- Aquí irá el contenido de la página -->
+    </div>
+
+    <script>
+        function handleCredentialResponse(response) {
+            console.log("handleCredentialResponse", response);
+
+            fetch('/api/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ id_token: response.credential })
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Redirigir al usuario a la página principal
+                        window.location.href = '/inici';
+                    } else {
+                        throw new Error('Error en el inicio de sesión');
+                    }
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function onFailure(error) {
+            console.log(error);
+        }
+
+        window.onload = function () {
+            google.accounts.id.initialize({
+                client_id: "245206733798-ahluj8dcti97t8nmulvq3fcbeg2trudb.apps.googleusercontent.com",
+                callback: handleCredentialResponse,
+                cancel_on_tap_outside: false,
+                context: "signin",
+                auto_select: false,
+            });
+            google.accounts.id.renderButton(
+                document.getElementsByClassName("login-container")[0],
+                {
+                    theme: "outline",
+                    size: "large",
+                    locale: "es",
+                    text: "signin_with",
+                    shape: "pill",
+                    logo_alignment: "left",
+                }
+            );
+            google.accounts.id.prompt();
+        };
+    </script>
+</body>
+
+
+
+</html>

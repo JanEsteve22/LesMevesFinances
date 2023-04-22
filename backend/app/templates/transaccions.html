@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Els meus moviments - MyFinance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4c4c4c;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+        }
+
+        li {
+            margin: 0 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            font-size: 16px;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: #bfbfbf;
+        }
+
+        .nav-right {
+            margin-left: auto;
+        }
+
+        .table-container {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .custom-table {
+            width: 100% !important;
+            margin: 0 auto;
+        }
+
+        .table-custom-width {
+            table-layout: fixed;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            max-width: 100%;
+        }
+
+        .table-custom-width th:nth-child(4),
+        .table-custom-width td:nth-child(4) {
+            width: 20%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{{ url_for('inici') }}">MyFinance</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('new_transaction_page') }}">Nou moviment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('new_data_page') }}">Pujar noves dades</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url_for('logout') }}">Tancar sessió</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1></h1>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Columna izquierda: panel de filtros -->
+                <div class="col-md-2">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="mb-0">Seleccions</h3>
+                        </div>
+                        <div class="card-body">
+                            <form id="filter-form">
+                                <div class="mb-3">
+                                    <label for="filter-month" class="form-label">Mes</label>
+                                    <input type="month" class="form-control" id="filter-month">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="filter-concept" class="form-label">Concepte</label>
+                                    <select class="form-control" id="filter-concept">
+                                        <option value="">Tots els conceptes</option>
+                                        {% for concept in unique_concepts %}
+                                        <option value="{{ concept }}">{{ concept }}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="filter-min-amount" class="form-label">Import mínim</label>
+                                    <input type="number" step="0.01" class="form-control" id="filter-min-amount">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="filter-max-amount" class="form-label">Import màxim</label>
+                                    <input type="number" step="0.01" class="form-control" id="filter-max-amount">
+                                </div>
+                                <button type="submit" class="btn btn-primary mb-2">Aplicar seleccions</button>
+                                <button type="button" id="clear-filters" class="btn btn-secondary mb-2">Borrar
+                                    seleccions</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <a href="{{ url_for('download_transactions') }}" class="btn btn-outline-info">Descarregar
+                            moviments en .txt</a>
+                    </div>
+                    <div class="mt-3">
+                        <button type="button" id="delete-all-transactions" class="btn btn-outline-danger">Eliminar tots
+                            els moviments</button>
+                    </div>
+                </div>
+                <!-- Columna derecha: tabla de detalle -->
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="mb-0">Moviments</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-container">
+                                <table id="transactions-table"
+                                    class="table table-striped custom-table table-custom-width">
+                                    <!-- Añade la clase 'custom-table' -->
+                                    <thead>
+                                        <tr>
+                                            <th>Data</th>
+                                            <th>Tipus</th>
+                                            <th>Concepte</th>
+                                            <th>Descripció</th>
+                                            <th>Import</th>
+                                            <th></th>
+                                        </tr>
+                                        <tr>
+                                            <th><input type="text" class="form-control" placeholder="Buscar"></th>
+                                            <th><input type="text" class="form-control" placeholder="Buscar"></th>
+                                            <th><input type="text" class="form-control" placeholder="Buscar"></th>
+                                            <th><input type="text" class="form-control" placeholder="Buscar"></th>
+                                            <th><input type="text" class="form-control" placeholder="Buscar"></th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for transaction in transactions %}
+                                        <tr>
+                                            <td class="cells">{{ transaction.date.strftime('%d/%m/%Y') }}</td>
+                                            <td class="cells">{{ transaction.tipo }}</td>
+                                            <td class="cells">{{ transaction.concepte }}</td>
+                                            <td class="cells">{{ transaction.description }}</td>
+                                            <td class="cells">{{ '%0.2f' % transaction.amount }} €</td>
+                                            <!-- Añade la clase 'amount' a las celdas de importe -->
+                                            <td>
+                                                <button class="btn btn-danger btn-sm delete-btn"
+                                                    data-id="{{ transaction.id }}">Eliminar</button>
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        let table;
+        let editingCell = null;
+
+        $(document).ready(function () {
+            // Inicializamos la tabla con Datatables
+            table = $('#transactions-table').DataTable({
+                paging: true,
+                pageLength: 50,
+                searching: true, // Habilita la búsqueda
+                ordering: false,
+                select: {
+                    style: 'single'
+                }
+            });
+            // Función para eliminar un registro
+            function deleteTransaction(transactionId) {
+                // Envía una solicitud AJAX al servidor para eliminar el registro
+                $.ajax({
+                    url: '/delete_transaction/' + transactionId,
+                    method: 'POST',
+                    success: function (response) {
+                        // Actualiza la tabla en el cliente
+                        table.row($('[data-id="' + transactionId + '"]').closest('tr')).remove().draw();
+                    },
+                    error: function (error) {
+                        console.log(error);
+                    }
+                });
+            }
+
+            // Adjunta el controlador de eventos al botón de eliminar
+            $('#transactions-table').on('click', '.delete-btn', function () {
+                var transactionId = $(this).data('id');
+                deleteTransaction(transactionId);
+            });
+
+            $('#transactions-table thead input').on('keyup change', function () {
+                table
+                    .column($(this).parent().index())
+                    .search(this.value)
+                    .draw();
+            });
+
+            // Agregamos la funcionalidad de editar
+            $('#transactions-table').on('dblclick', 'tbody td', function () {
+                var row = $(this).closest('tr');
+                var transactionId = row.find('.delete-btn').data('id');
+                var cell = table.cell(this);
+                var oldValue = cell.data();
+                var columnIndex = cell.index().column;
+                var html;
+
+                if (columnIndex === 0) {
+                    html = '<input class="edit-input" type="date" value="' + oldValue + '">';
+                } else if (columnIndex === 1) {
+                    html = '<select class="edit-input"><option value="Gast">Gast</option><option value="Ingrés">Ingrés</option></select>';
+                } else {
+                    html = '<input class="edit-input" type="text" value="' + oldValue + '">';
+                }
+
+                cell.data(html);
+
+                if (columnIndex === 1) {
+                    cell.node().querySelector('select').value = oldValue;
+                }
+
+                cell.node().querySelector('.edit-input').focus();
+
+                $('input, select', cell.node()).on('keydown', function (event) {
+                    if (event.key === 'Enter') {
+                        event.preventDefault();
+                    }
+                }).on('blur change', function () {
+                    var newValue = $(this).val();
+
+                    if (columnIndex === 0) {
+                        // Validar y formatear la fecha
+                        var dateParts = newValue.split('-');
+                        var formattedDate = dateParts[2] + '/' + dateParts[1] + '/' + dateParts[0];
+                        newValue = formattedDate;
+                    } else if (columnIndex === 4) {
+                        // Validar y formatear el importe
+                        newValue = parseFloat(newValue);
+                        if (isNaN(newValue)) {
+                            newValue = oldValue;
+                        } else {
+                            newValue = newValue.toFixed(2) + ' €';
+                        }
+                    } else if (columnIndex === 2) {
+                        // Limitar la longitud del concepto
+                        newValue = newValue.substring(0, 100);
+                    } else if (columnIndex === 3) {
+                        // Limitar la longitud de la descripción
+                        newValue = newValue.substring(0, 100);
+                    }
+
+                    if (newValue === '') {
+                        newValue = oldValue;
+                    }
+
+                    cell.data(newValue).draw(false);
+
+                    var rowData = table.row(cell.node().parent).data();
+                    function getFieldName(columnIndex) {
+                        switch (columnIndex) {
+                            case 0:
+                                return "data";
+                            case 1:
+                                return "tipus";
+                            case 2:
+                                return "concepte";
+                            case 3:
+                                return "descripció";
+                            case 4:
+                                return "import";
+                            default:
+                                return "";
+                        }
+                    }
+
+                    var fieldName = getFieldName(columnIndex);
+                    console.log("AJAX call about to be made");
+                    console.log("transactionId:", transactionId);
+                    console.log("fieldName:", fieldName);
+                    console.log("newValue:", newValue);
+                    $.ajax({
+                        url: '/transaccions/editar/' + transactionId,
+                        method: 'POST',
+                        data: {
+                            field_name: fieldName,
+                            new_value: newValue
+                        },
+                        success: function (response) {
+                            console.log(response);
+                        },
+                        error: function (error) {
+                            console.log(error);
+                        }
+                    }); console.log("AJAX call made");
+                });
+            });
+            $('#filter-form').on('submit', function (event) {
+                event.preventDefault();
+                const filterMonth = $('#filter-month').val();
+                const filterConcepte = $('#filter-concept').val();
+                const filterMinAmount = $('#filter-min-amount').val();
+                const filterMaxAmount = $('#filter-max-amount').val();
+
+                table.draw(); // Actualiza la tabla con los nuevos filtros
+            });
+
+            // Borrar filtros
+            $('#clear-filters').on('click', function () {
+                $('#filter-month').val('');
+                $('#filter-concept').val('');
+                $('#filter-min-amount').val('');
+                $('#filter-max-amount').val('');
+
+                table.draw(); // Actualiza la tabla sin filtros
+            });
+
+            // Confirmació d'eliminació
+            $("#delete-all-transactions").click(function () {
+                if (confirm("Estàs segur que vols eliminar tots els moviments? Aquesta acció no es pot desfer.")) {
+                    $.post("{{ url_for('delete_all_transactions') }}", function (data) {
+                        if (data.success) {
+                            location.reload();
+                        } else {
+                            alert("Hi ha hagut un problema en eliminar els moviments. Si us plau, torna a intentar-ho.");
+                        }
+                    });
+                }
+            });
+
+            // Función de filtrado personalizada
+            $.fn.dataTable.ext.search.push(function (settings, searchData) {
+                const filterMonth = $('#filter-month').val();
+                const filterConcept = $('#filter-concept').val();
+
+                const filterMinAmount = $('#filter-min-amount').val();
+                const filterMaxAmount = $('#filter-max-amount').val();
+
+                const transactionDate = new Date(searchData[0].split('/').reverse().join('-'));
+                const transactionAmount = parseFloat(searchData[3].replace(' €', ''));
+
+                let dateFilter = true;
+                let conceptFilter = true;
+                let minAmountFilter = true;
+                let maxAmountFilter = true;
+
+                if (filterMonth) {
+                    const filterMonthDate = new Date(filterMonth);
+                    dateFilter = transactionDate.getMonth() === filterMonthDate.getMonth() && transactionDate.getFullYear() === filterMonthDate.getFullYear();
+                }
+                if (filterConcept) {
+                    conceptFilter = searchData[2].toLowerCase().includes(filterConcept.toLowerCase());
+                }
+
+                if (filterMinAmount) {
+                    minAmountFilter = transactionAmount >= parseFloat(filterMinAmount);
+                }
+
+                if (filterMaxAmount) {
+                    maxAmountFilter = transactionAmount <= parseFloat(filterMaxAmount);
+                }
+
+                return dateFilter && minAmountFilter && maxAmountFilter && conceptFilter;
+            });
+        });
+    </script>
+</body>

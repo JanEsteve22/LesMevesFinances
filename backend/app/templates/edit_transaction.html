@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar moviment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="date"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .button-group input[type="radio"] {
+            display: none;
+        }
+
+        .button-group label {
+            display: inline-block;
+            padding: 8px 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+            flex: 1;
+            text-align: center;
+            margin-right: 4px;
+        }
+
+        .button-group label:last-child {
+            margin-right: 0;
+        }
+
+        .button-group input[type="radio"]:checked+label {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        button[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Editar moviment</h1>
+    <form action="{{ url_for('new_transaction') }}" method="post">
+        <label>Tipus de moviment:</label>
+        <div class="button-group">
+            <input type="radio" id="gast" name="tipo" value="Gast" required checked>
+            <label for="gast">Gast</label>
+            <input type="radio" id="ingres" name="tipo" value="Ingrès" required>
+            <label for="ingres">Ingrès</label>
+        </div>
+        <label for="description">Descripció:</label>
+        <input type="text" id="description" name="description" required>
+        <br>
+        <label for="amount">Import:</label>
+        <input type="number" id="amount" name="amount" step="0.01" required>
+        <br>
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date" required value="{{ today }}">
+        <br>
+        <button type="submit">Guardar</button>
+    </form>
+    <script>
+        document.getElementById('date').valueAsDate = new Date();
+    </script>
+</body>
+
+</html>

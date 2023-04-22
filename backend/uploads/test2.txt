@@ -1,0 +1,1025 @@
+tipo	concepte	description	amount	date
+Gast	Gimnàs	Cuota dir	-21.88	20240201
+Gast	Gimnàs	Cuota dir	-21.88	20240101
+Gast	Gimnàs	Cuota dir	-21.88	20231201
+Gast	Gimnàs	Cuota dir	-21.88	20231101
+Gast	Gimnàs	Cuota dir	-21.88	20231001
+Gast	Gimnàs	Cuota dir	-21.88	20230901
+Gast	Gimnàs	Cuota dir	-21.88	20230801
+Gast	Gimnàs	Cuota dir	-21.88	20230701
+Gast	Gimnàs	Cuota dir	-21.88	20230601
+Gast	Gimnàs	Cuota dir	-21.88	20230501
+Ingrés	Nòmina	Nòmina 202304	1874.64	20230426
+Gast	Súpers	Menjar italia	-21.51	20230402
+Gast	Espectacles	Berto Romero	-29.2	20230402
+Gast	Gimnàs	Cuota dir	-21.88	20230401
+Gast	Restaurants	Esmorzar	-5.4	20230401
+Gast	Pis	Lloguer 202304	-504.5	20230401
+Gast	Esport	PAdel	-8.75	20230401
+Gast	Restaurants	Sopar la porca	-24.42	20230401
+Ingrés	Nòmina	Nòmina 202303	1874.51	20230331
+Gast	Súpers	Consum	-13.4	20230330
+Gast	Altres	Farmacia	-12.62	20230330
+Gast	Esport	PROTE HSN	-45.5	20230329
+Gast	Roba	Jaqueta zalando	-67	20230329
+Gast	Restaurants	el olivo	-5.4	20230328
+Ingrés	Altres ingresos	Blanc	62	20230324
+Gast	Súpers	Consum	-28.17	20230323
+Gast	Pis	Cafe + netejador màquina	-67.85	20230322
+Gast	Restaurants	rey bocata	-12	20230322
+Gast	Altres	Virtual	-26	20230321
+Gast	Restaurants	Aigua i braves	-2.6	20230321
+Ingrés	Altres ingresos	Blanc	34.15	20230317
+Gast	Altres	OpenAI 202203	-22.91	20230316
+Gast	Altres	Auriculars	-11.1	20230316
+Gast	Altres	Auriculars	-14.95	20230316
+Gast	Viatges	Casa rural sdg Laia	-105	20230315
+Gast	Esport	Padel dij 23/03	-11.25	20230315
+Ingrés	Altres ingresos	Blanc sopar xino	35.5	20230314
+Gast	Viatges	Tren copenhagent	-14.52	20230313
+Gast	Pis	simyo 202302	-31.49	20230313
+Gast	Regals	max botes furbo	-4.05	20230310
+Gast	Roba	Goors hym	-16.64	20230310
+Gast	Viatges	Aerobus + tren + dinar lund	-35.16	20230309
+Gast	Transport	t usual	-20	20230307
+Gast	Súpers	Pila + consum	-29.71	20230306
+Gast	Regals	antifaz	-6.99	20230306
+Gast	Restaurants	Dinar japo + 365	-19.85	20230305
+Gast	Gimnàs	Cuota dir	-21.88	20230301
+Gast	Pis	Lloguer 202301	-504.09	20230301
+Ingrés	Nòmina	nomina 202302	1874.51	20230228
+Gast	Súpers	Cosnum	-19.37	20230228
+Gast	Transport	cabify	-10	20230226
+Ingrés	Altres	Magnesi	5	20230225
+Gast	Viatges	Croacia vols + apartament 1	-399.93	20230225
+Gast	Viatges	Munich	-131.11	20230224
+Gast	Altres	Spotify pago anual Laia	-32	20230222
+Gast	Viatges	Lund	-120.5	20230221
+Gast	Restaurants	Postre	-16.25	20230219
+Gast	Restaurants	bar Cleme Dir	-7.4	20230219
+Gast	Súpers	Consum	-49.13	20230218
+Gast	Festa	Clot	-27	20230217
+Ingrés	Altres ingresos	Blanc	11	20230213
+Gast	Pis	Simyo	-31.4	20230213
+Ingrés	Transport	Refound renfe	20	20230212
+Gast	Regals	papa	-50	20230209
+Gast	Restaurants	FUCSIA I SU	-15.3	20230209
+Gast	Regals	Jersei	-64.5	20230209
+Gast	Restaurants	Can pnuyetes	-14.6	20230208
+Gast	Súpers	bonarea	-12.06	20230208
+Gast	Súpers	Bonarea	-4.58	20230206
+Gast	Altres	Copia clau	-7.2	20230206
+Gast	Esport	PAdel	-10	20230205
+Gast	Transport	t10	-11.35	20230204
+Gast	Restaurants	pizza	-19.39	20230204
+Gast	Restaurants	Smile burger	-9.98	20230203
+Gast	Súpers	Consum i merca i xino	-29.8	20230203
+Gast	Restaurants	su+ patron	-22.5	20230202
+Gast	Gimnàs	Cuota dir	-21.88	20230201
+Gast	Pis	Lloguer 202302	-504.09	20230201
+Gast	Altres	Finasteride	-58.6	20230201
+Ingrés	Nòmina	Gener 22	1827.62	20230131
+Gast	Esport	magnesi pols	-2.99	20230130
+Gast	Espectacles	dali	-10.25	20230130
+Gast	Restaurants	Craft Pizza	-15.32	20230130
+Ingrés	Regals	cumple lourdes	50	20230128
+Ingrés	Altres ingresos	Blanc	15	20230126
+Gast	Restaurants	Mexicé + bar xina	-23.33	20230126
+Gast	Súpers	Bonpreu	-6.36	20230124
+Gast	Esport	PAdel eric	-7	20230124
+Gast	Pis	marc i coses fotos	-9.57	20230123
+Gast	Roba	Mitjons Nike	-20.69	20230123
+Ingrés	Regals	Cumple	60	20230122
+Gast	Restaurants	Su	-7.1	20230120
+Gast	Súpers	Consum	-7.07	20230120
+Gast	Restaurants	bocata francesco	-3.5	20230119
+Gast	Roba	uniqlo	-35	20230118
+Gast	Esport	Magnesi decatlon	-15.97	20230117
+Gast	Pis	Perxes	-5.98	20230117
+Gast	Pis	Reembolsament tricount	-114.3	20230115
+Gast	Altres	Dentista	-193	20230113
+Gast	Súpers	consum	-4.49	20230113
+Gast	Súpers	Consum dia 13 i 14	-39.59	20230113
+Gast	Transport	Metro	-11.35	20230112
+Gast	Pis	Simyio 202212	-32.2	20230111
+Gast	Súpers	consum i xino	-5.75	20230110
+Gast	Transport	Renovacié bicing	-50	20230110
+Ingrés	Regals	Reis iaia	150	20230110
+Gast	Roba	jerseis hym	-51.78	20230109
+Ingrés	Regals	Reis papes i salva i iaios	340	20230106
+Gast	Altres	Farmacia	-9.93	20230105
+Gast	Transport	abonament renfe	-16	20230105
+Gast	Pis	Carxofa dutxa	-12.99	20230104
+Gast	Regals	Bolso mama	-59.9	20230104
+Gast	Restaurants	goiko	-14.29	20230104
+Gast	Gimnàs	Cuota dir	-21.88	20230101
+Gast	Pis	Lloguer gener 22	-504.09	20230101
+Ingrés	Nòmina	Nòmina 202212	1868.12	20221231
+Gast	Viatges	Zaragoza + casa tremp	-78.92	20221231
+Gast	Viatges	gasolina	-21.66	20221231
+Gast	Viatges	Tremp	-34.12	20221231
+Gast	Transport	metro	-7.95	20221229
+Gast	Súpers	Listerine	-5.97	20221221
+Gast	Espectacles	Cine + taxi	-13.37	20221220
+Gast	Espectacles	Cine avatar	-10.5	20221219
+Ingrés	Altres	blanc	5.23	20221219
+Gast	Regals	Chromecast	-29.99	20221219
+Gast	Festa	Sopar sdg nadal	-42.2	20221218
+Gast	Viatges	Zaragoza arbnb	-140.59	20221218
+Ingrés	Restaurants	Blanc andreu i monica	52.9	20221218
+Gast	Altres	Farmacia	-9.67	20221214
+Gast	Pis	simyio 202211	-31.49	20221214
+Gast	Transport	t casual	-7.95	20221213
+Gast	Súpers	bonarea	-30.33	20221212
+Gast	Regals	Amic invisible	-8.99	20221211
+Gast	Súpers	Consum	-21.28	20221210
+Gast	Restaurants	pizza	-9.17	20221208
+Gast	Altres	 	-13.99	20221208
+Gast	Altres	uber month	-4.99	20221206
+Gast	Altres	Vivid	-4	20221204
+Gast	Gimnàs	Cuota dir	-21.88	20221201
+Gast	Pis	Lloguer 202212	-504	20221201
+Gast	Restaurants	KFC + glovo	-11.59	20221201
+Ingrés	Nòmina	nomina 202211	1825.44	20221130
+Gast	Esport	Padel	-11.41	20221129
+Gast	Altres	tests antigens	-4.5	20221129
+Gast	Roba	jerseis	-38.25	20221128
+Gast	Esport	Padel Feina	-11	20221127
+Gast	Restaurants	burger	-13.5	20221127
+Gast	Viatges	Metro aeroport	-10.3	20221127
+Gast	Viatges	Porto total	-75.21	20221125
+Gast	Súpers	consum	-61.78	20221122
+Gast	Regals	Planta	-6	20221121
+Ingrés	Altres ingresos	Blanc	95	20221119
+Gast	Esport	Furbo sdg	-9	20221118
+Gast	Restaurants	Berenar illa	-7.55	20221118
+Gast	Transport	T-mobilitat	-7.95	20221118
+Gast	Restaurants	Sopar nadal sdg	-60	20221117
+Ingrés	Restaurants	Blanc	10	20221117
+Gast	Roba	Gymshark	-78	20221117
+Ingrés	Altres ingresos	Blanc	16	20221117
+Gast	Pis	simyio 202210	-31.49	20221114
+Gast	Súpers	Consum	-14.48	20221112
+Ingrés	Altres ingresos	Blanc	25.5	20221112
+Gast	Festa	Dia de la musica	-15	20221111
+Gast	Esport	Padel	-7.5	20221110
+Gast	Restaurants	Sopar sekta	-16.8	20221108
+Gast	Altres	Pelu	-13	20221108
+Ingrés	Roba	Devolucio asos	13.2	20221107
+Gast	Viatges	Saragossa	-53.57	20221107
+Gast	Súpers	Carn+ consum	-52.72	20221105
+Gast	Regals	Pokemon purpura max	-46.9	20221104
+Gast	Restaurants	Pizza	-27.25	20221104
+Gast	Viatges	Taxa casa rural	-2	20221103
+Gast	Pis	Lloguer 202211	-504	20221102
+Ingrés	Altres ingresos	Iaia	50	20221102
+Gast	Gimnàs	Cuota dir	-21.88	20221101
+Gast	Transport	Tren martorell	-3.95	20221101
+Gast	Súpers	Bonpreu	-12.55	20221101
+Ingrés	Nòmina	Nomina oct 22	1825.44	20221031
+Gast	Espectacles	Cervells	-4	20221031
+Ingrés	Altres ingresos	Bizum monica	20	20221031
+Gast	Viatges	Munich vols	-72.54	20221031
+Gast	Esport	Padel Dir saldo	-10	20221027
+Gast	Súpers	Consum	-17.49	20221026
+Gast	Esport	padel	-8.5	20221022
+Gast	Viatges	poker i resta	-15	20221022
+Gast	Restaurants	Dijous	-14.69	20221021
+Gast	Restaurants	acuarius	-3	20221019
+Gast	Viatges	Casa rural	-51.15	20221018
+Gast	Súpers	Bon preu	-15.28	20221017
+Gast	Esport	Decatlon	-17.97	20221015
+Gast	Roba	About you	-45.13	20221014
+Ingrés	Altres ingresos	Cashback vivid	23.42	20221014
+Gast	Pis	Simyo 202209	-31.49	20221014
+Gast	Restaurants	Kebab	-4.2	20221013
+Gast	Esport	mypr	-75.58	20221012
+Gast	Viatges	porto pis	-61.2	20221012
+Gast	Roba	Samarretes tuskamisetas	-26.99	20221011
+Gast	Súpers	Fruita	-2.63	20221011
+Gast	Festa	Padel dir	-10	20221010
+Gast	Restaurants	Grill + gelat	-29.78	20221008
+Gast	Roba	Asos	-19.29	20221008
+Gast	Restaurants	Cafe+dinar+aigua	-16.4	20221006
+Gast	Esport	Padel dir	-7.5	20221003
+Gast	Transport	Gasolina lourdes	-20	20221002
+Gast	Gimnàs	Cuota dir	-21.88	20221001
+Gast	Restaurants	Dominos	-14	20221001
+Gast	Pis	Lloguer Octubre 2022	-504	20221001
+Gast	Viatges	Vols porto	-111	20221001
+Gast	Súpers	Bazar i super	-31.99	20220930
+Ingrés	Nòmina	Nòmina Septembre	1825.44	20220928
+Gast	Altres	Prime vivid	-9.9	20220928
+Gast	Restaurants	Konig	-17.9	20220928
+Gast	Regals	Regal mama	-49.9	20220928
+Ingrés	Altres ingresos	Monica bizum	15	20220928
+Gast	Restaurants	Sopar andreu	-16.4	20220928
+Gast	Transport	T-mobilitat	-7.95	20220927
+Gast	Súpers	Consum	-12.84	20220923
+Gast	Jocs	Outer wilds	-12.59	20220923
+Gast	Restaurants	El mirador + celebre	-24.55	20220923
+Gast	Esport	Padel	-11.7	20220922
+Gast	Espectacles	La sotana	-39.6	20220922
+Gast	Súpers	Consum	-22.76	20220921
+Gast	Altres	Pantalla movil	-5.99	20220921
+Gast	Regals	Regal aleix	-4.5	20220920
+Gast	Restaurants	Bocata max	-4.2	20220917
+Ingrés	Restaurants	Blanqueo oretorno	20	20220916
+Gast	Pis	Simyo agost	-31.49	20220914
+Gast	Súpers	cONSUM	-8.97	20220913
+Gast	Viatges	Barco eric menjar i xofa i padel	-54.5	20220912
+Gast	Restaurants	Gelats	-15.05	20220910
+Ingrés	Restaurants	Blanqueo	67.69	20220910
+Gast	Súpers	Madalena bea	-1.2	20220909
+Gast	Transport	T casual	-7.95	20220908
+Gast	Restaurants	Patron	-15	20220908
+Gast	Supers	Consum	-7.33	20220907
+Gast	Supers	Bon Area	-10.08	20220907
+Gast	Altres	Pelu	-13	20220907
+Gast	Supers	Bon Area	-13.94	20220907
+Gast	Altres	Curs solidity	-120	20220906
+Gast	Altres	Bascula i cinta	-21.33	20220904
+Gast	Pis	Moulinex	-62.07	20220904
+Gast	Restaurants	Mas Blanc	-4.84	20220903
+Gast	Transport	Gasolina	-19.4	20220903
+Gast	Supers	Consum	-50.55	20220903
+Gast	Roba	Samarreta Asics	-12.12	20220903
+Gast	Gimnàs	Cuota dir	-21.88	20220901
+Gast	Pis	Lloguer Agost	-504.09	20220901
+Gast	Restaurants	Can punyetes	-17.46	20220901
+Gast	Altres	Barco eric	-60	20220901
+Gast	Restaurants	Suc de taronja	-2.8	20220901
+Gast	Supers	Consum	-52.2	20220829
+Ingrés	Nòmina	44774	1837.79	20220828
+Gast	Esport	Desafio 6 semanas	-49	20220828
+Gast	Transport	Bono renfe	-20	20220826
+Gast	Esport	Padel	-3.5	20220826
+Gast	Transport	Tren	-16.6	20220826
+Gast	Restaurants	el Taller	-14.5	20220826
+Gast	Altres	Bnzina	-30	20220825
+Gast	Ingressos	Super	2.25	20220825
+Gast	Restaurants	Bar eric	-8.5	20220825
+Gast	Viatges	Menorca	-142.55	20220817
+Gast	Pis	Seguro anual	-83.44	20220817
+Gast	Pis	Simyio juliol	-31.49	20220817
+Gast	Regals	Ventu	-1	20220817
+Gast	Viatges	Riudarenes	-125.56	20220817
+Gast	Restaurants	Eric+Pau+empanadas	-25.3	20220810
+Gast	Transport	Tren	-8.3	20220810
+Gast	Restaurants	Piel degallina	-25.8	20220807
+Gast	Regals	Paper regal	-3	20220807
+Gast	Viatges	Casa rural feina	-91.66	20220806
+Gast	Viatges	Sardenya	-700.59	20220803
+Gast	Pis	44774	-495	20220801
+Gast	Altres	Camara i carrete	-86.04	20220801
+Gast	Espectacles	aRosalia	-65	20220801
+Gast	Roba	Xancletes i ulleres	-31.98	20220801
+Gast	Gimnàs	Cuota dir	-21.88	20220801
+Gast	Restaurants	Kebab	-11.89	20220801
+Gast	Restaurants	Xines uni	-14.1	20220730
+Gast	Transport	tren	-6.4	20220730
+Gast	Restaurants	Barra	-16.8	20220728
+Gast	Restaurants	Foc i oli	-16.52	20220728
+Gast	Festa	4latas	-10	20220728
+Gast	Altres	Farmacia	-4	20220728
+Ingrés	Nòmina	Juliol 22	1606.82	20220728
+Gast	Regals	Album	-12.99	20220727
+Gast	Supers	consum	-15.35	20220726
+Gast	Transport	t-casual	-11.35	20220726
+Gast	Roba	Gorra carhartt	-11.95	20220725
+Gast	Supers	bonarea	-2.47	20220725
+Ingrés	Bizum	Monica	17.5	20220724
+Gast	Esport	PAdel torneig	-6	20220723
+Gast	Restaurants	guapo i +	-39.68	20220721
+Gast	Supers	Consum	-19.14	20220718
+Gast	Altres	Fotoprix	-16.4	20220718
+Gast	Pis	Simyio Juny	-31.49	20220717
+Ingrés	Restaurants	Ticket	12	20220717
+Gast	Restaurants	Fucsia	-13.5	20220714
+Gast	Transport	T casual	-11.35	20220714
+Ingrés	Bizum	blanc	35.65	20220714
+Gast	Regals	Cafetera	-256.8	20220712
+Gast	Supers	Spar	-11.28	20220712
+Gast	Transport	Tren	-8.3	20220711
+Ingrés	Regals	iaia	50	20220711
+Gast	Festa	BBQ RyC	-23.83	20220708
+Gast	Restaurants	dinar + esmorzar	-21.7	20220708
+Gast	Altres	 	-8.8	20220708
+Gast	Esport	Padel	-11	20220705
+Gast	Supers	Consum	-4.73	20220705
+Ingrés	Bizum	Ticket	14.5	20220703
+Gast	Supers	Bonara	-66.02	20220702
+Gast	Roba	Pantalons curts	-35.98	20220702
+Gast	Pis	Juliol 22	-495	20220701
+Gast	Festa	Summer	-40.9	20220701
+Gast	Altres	Renta 2021	-162.42	20220630
+Ingrés	Restaurants	eric	19	20220630
+Ingrés	Nòmina	Juny 22	1606	20220629
+Gast	Esport	Padel	-17.33	20220627
+Gast	Altres	 	-10.28	20220627
+Gast	Festa	Bicing + sant joan	-8.38	20220627
+Gast	Altres	Farmacia	-3.5	20220627
+Gast	Transport	Tren+benzina	-51.6	20220625
+Gast	Supers	Bonpreu	-24.27	20220625
+Gast	Espectacles	Velada	-5	20220625
+Ingrés	Regals	Mama. lourdes salva	170	20220624
+Gast	Festa	Sant joan	-5	20220623
+Gast	Supers	vater pl cat	-1.7	20220623
+Ingrés	Regals	Sant joan salva	20	20220623
+Gast	Festa	Cumple silvia	-30.15	20220618
+Gast	Supers	getir	-8.47	20220618
+Gast	Restaurants	supercor	-3.58	20220617
+Ingrés	Restaurants	Monica peruano	25	20220617
+Gast	Restaurants	Sopar pa i oli	-32.49	20220616
+Gast	Roba	Hym	-17.99	20220616
+Gast	Supers	Spar	-4.03	20220615
+Gast	Roba	Aboutyou	-93.5	20220614
+Gast	Pis	Simyo maig	-32.16	20220614
+Gast	Restaurants	Murivecci	-18.8	20220614
+Gast	Transport	T-casual	-11.35	20220614
+Gast	Transport	Tren	-8.6	20220611
+Gast	Regals	Laura	-5.4	20220611
+Gast	Altres	Pelu	-14	20220610
+Gast	Restaurants	Porvenir+tarda	-21.54	20220609
+Gast	Supers	Consum	-18.59	20220609
+Gast	Altres	Farmacia	-13.45	20220609
+Gast	Restaurants	guapo	-12	20220609
+Gast	Esport	Padel	-13	20220608
+Gast	Viatges	Escapada a casa monica	-54.65	20220605
+Gast	Regals	Laura	-10.38	20220605
+Gast	Roba	Pantalons dickies	-6.01	20220603
+Gast	Restaurants	Patron	-15	20220602
+Gast	Espectacles	modgi	-7	20220602
+Gast	Pis	Lloguer Juny 22	-495	20220601
+Gast	Altres	nsk	-9.8	20220601
+Gast	Esport	Padel	-1	20220601
+Gast	Restaurants	Capri + cubata	-19.57	20220530
+Gast	Supers	Bonpreu	-8.13	20220530
+Gast	Roba	Polos	-57.97	20220529
+Gast	Festa	28 laia	-55.74	20220528
+Gast	Festa	Festa laura	-34.5	20220528
+Gast	Restaurants	arros + gelat + suc	-28.19	20220528
+Ingrés	Bizum	rey bocata	20.5	20220528
+Ingrés	Nòmina	Maig 22	1606.82	20220528
+Gast	Transport	t casual	-11.35	20220527
+Gast	Altres	 	-5.1	20220527
+Ingrés	Regals	Natalia	8.74	20220525
+Gast	Supers	Bonarea	-12.74	20220523
+Gast	Espectacles	Velada	-50	20220519
+Gast	Viatges	Cotxe Sardenya	-96.32	20220518
+Gast	Restaurants	Pizza	-15.5	20220518
+Gast	Supers	Consum	-10.5	20220518
+Gast	Viatges	Menorca vols	-50	20220517
+Gast	Esport	Padel	-11	20220517
+Gast	Festa	Cau laura	-29.5	20220515
+Gast	Pis	Simyo abril	-31.6	20220514
+Gast	Transport	t casual	-11.35	20220514
+Ingrés	Regals	iaio	50	20220514
+Gast	Festa	festa etseib	-32.17	20220513
+Gast	Supers	Gettir	-6.77	20220513
+Gast	Supers	Consum	-28.19	20220511
+Gast	Restaurants	Sense Seny	-15	20220511
+Gast	Supers	Consum	-14.39	20220511
+Gast	Gimnàs	padel	-18	20220509
+Gast	Festa	pau	-35	20220507
+Gast	Gimnàs	padel	-16	20220507
+Gast	Supers	Consum	-6.25	20220507
+Ingrés	Bizum	Ticket	15	20220503
+Gast	Supers	Consum	-5.5	20220502
+Gast	Pis	Lloguer Maig 22	-495	20220501
+Gast	Gimnàs	MyProtein	-64.53	20220501
+Gast	Supers	 	-2	20220430
+Gast	Transport	T-Casual	-11.35	20220429
+Gast	Transport	Tren	-10.35	20220429
+Gast	Esport	PAdel	-4	20220429
+Gast	Supers	Consum	-24.14	20220428
+Ingrés	Nòmina	Abril	1606.82	20220427
+Gast	Restaurants	Esmorzar sdg	-4.2	20220426
+Gast	Regals	Zoel	-50	20220424
+Gast	Supers	Consum	-4.95	20220423
+Gast	Regals	Sant Jordi	-56	20220419
+Gast	Supers	Consum	-15.42	20220419
+Gast	Roba	dino	-10	20220418
+Gast	Restaurants	Can kenji	-24.65	20220415
+Gast	Transport	T10	-11.35	20220415
+Gast	Restaurants	Getir	-2.98	20220415
+Gast	Altres	Perruquer	-13	20220413
+Gast	Pis	Symio Maré	-31.6	20220412
+Ingrés	Restaurants	Ticket	15	20220412
+Gast	Restaurants	Uber	-15.8	20220408
+Gast	Gimnàs	Sharma	-15.3	20220408
+Gast	Pis	Fundes llit	-51.4	20220406
+Gast	Gimnàs	Magnesi	-5.98	20220406
+Gast	Restaurants	 	-9.3	20220402
+Gast	Pis	Lloguer Abril	-495	20220401
+Gast	Restaurants	 	-7.5	20220401
+Ingrés	Bizum	Ticket	8.5	20220401
+Ingrés	Bizum	Ticket	2.5	20220331
+Ingrés	Bizum	Ticket	4	20220329
+Gast	Esport	Padel	-3.5	20220328
+Ingrés	Nòmina	Maré 2022	1606.82	20220326
+Gast	Restaurants	feina	-28.24	20220325
+Ingrés	Bizum	Blanc xino	13.5	20220325
+Gast	Roba	Sudadera nike	-39.5	20220325
+Gast	Supers	Consum	-31.19	20220324
+Gast	Festa	Taxi+disco	-30.5	20220319
+Gast	Restaurants	Graduacio	-16	20220318
+Gast	Festa	Costa	-19	20220318
+Gast	Pis	Simyo Febrer	-36.49	20220314
+Gast	Transport	Tcasual i tren martorell	-15.2	20220312
+Gast	Supers	Consum	-18.93	20220312
+Gast	Restaurants	Sopar	-5.6	20220312
+Gast	Restaurants	Graduacio	-16	20220312
+Gast	Viatges	Sardegna	-216.02	20220312
+Gast	Supers	Consum	-38.56	20220309
+Gast	Restaurants	guapo	-11.5	20220308
+Gast	Restaurants	Eric	-21	20220306
+Gast	Transport	Bono 10 tren	-62.75	20220305
+Gast	Restaurants	SDG	-28.5	20220304
+Ingrés	Bizum	Ticket	7	20220302
+Gast	Pis	Consums	-200	20220302
+Gast	Pis	Lloguer Maré 2022	-495	20220301
+Gast	Esport	Padel	-9.1	20220301
+Gast	Roba	Traje Massimo	-292.8	20220301
+Ingrés	Bizum	Ticket	10	20220301
+Ingrés	Nòmina	44228	1606.82	20220228
+Gast	Supers	Consum	-8.18	20220226
+Gast	Transport	Tren	-14.45	20220225
+Gast	Restaurants	Sopar	-21	20220223
+Gast	Espectacles	Cine	-5	20220223
+Gast	Supers	Consum	-16.85	20220223
+Ingrés	Bizum	Ticket	17.2	20220223
+Gast	Viatges	Ski	-89.22	20220221
+Gast	Altres	Farmacia eucerin	-22.5	20220218
+Gast	Transport	Tcasual	-11.35	20220218
+Gast	Viatges	Estiu 2022	-55.56	20220218
+Gast	Restaurants	Fucsia	-13.5	20220217
+Ingrés	Bizum	Ticket	15	20220215
+Gast	Regals	Cactus	-11	20220214
+Gast	Pis	Simyo Gener	-36.67	20220214
+Gast	Restaurants	Pizza	-9	20220211
+Gast	Supers	Consum	-10.27	20220211
+Gast	Regals	Ignasi	-30	20220209
+Gast	Altres	Agenda	-9	20220209
+Gast	Restaurants	Fucsia	-13.5	20220208
+Ingrés	Bizum	iaios	50	20220206
+Gast	Transport	Tren	-3.1	20220206
+Gast	Restaurants	PIzza craft	-16.76	20220203
+Gast	Restaurants	conesa beer	-16.55	20220203
+Gast	Regals	roger cangur	-4.95	20220203
+Gast	Transport	T casual	-11.35	20220203
+Ingrés	Bizum	Esmorzar	5.5	20220203
+Ingrés	Bizum	Blanc xino	19.5	20220202
+Gast	Pis	Lloguer 202202	-495	20220201
+Gast	Supers	consum	-36.25	20220131
+Gast	Transport	tren	-14.95	20220127
+Gast	Roba	Sudadera nike	-48	20220126
+Gast	Restaurants	uberets	-11	20220126
+Ingrés	Nòmina	Gener 21	1606.82	20220125
+Gast	Restaurants	Goiko	-22.94	20220124
+Gast	Viatges	Festa la casica	-803.64	20220122
+Ingrés	Regals	Cumple	250	20220122
+Ingrés	Bizum	Cumple la casica	500	20220122
+Ingrés	Bizum	Blanc xino	74.71	20220115
+Gast	Pis	Simyo dec	-39.5	20220114
+Gast	Gimnàs	MyProtein	-51.98	20220111
+Gast	Supers	bonareas	-15.11	20220110
+Gast	Jocs	Minecraft	-22.5	20220109
+Gast	Restaurants	Empanadas +tapes	-43	20220109
+Gast	Transport	cuota bicing	-50	20220107
+Gast	Regals	chaleco lastre	-20	20220107
+Gast	Transport	t casual	-11.35	20220107
+Gast	Esport	Padel	-6	20220106
+Gast	Pis	Lloguer 202201	-495	20220106
+Ingrés	Regals	Mony	650	20220106
+Gast	Transport	Tren	-6.65	20220101
+Ingrés	Nòmina	Desembre 21	1514.18	20211231
+Gast	Regals	fnac i uniqlo	-106.73	20211230
+Gast	Supers	Bonpreu	-25.65	20211230
+Gast	Restaurants	Sopar carlos	-16.5	20211228
+Gast	Tecnologia	Amazon prime	-18	20211228
+Gast	Supers	consum	-4.08	20211227
+Gast	Espectacles	Cine	-4.5	20211227
+Gast	Tecnologia	Twitch	-4.5	20211227
+Gast	Viatges	Portaventura	-16.14	20211223
+Gast	Transport	Metro i tren	-14.45	20211223
+Gast	Supers	Fruita	-3.5	20211221
+Gast	Roba	Xubasquero	-6	20211221
+Gast	Restaurants	kebab	-4	20211221
+Gast	Transport	Tren	-6.65	20211217
+Ingrés	Bizum	Blanc xino	90	20211217
+Gast	Restaurants	kfc	-10.5	20211216
+Gast	Viatges	Torredembarra	-12	20211215
+Gast	Pis	Simyo novembre	-42.91	20211215
+Gast	Supers	Esmorzar	-5.05	20211212
+Gast	Altres	Farma	-17.7	20211212
+Ingrés	Bizum	Dinar monica	20	20211212
+Gast	Supers	Lidl	-33.16	20211211
+Gast	Regals	Ruyé	-3.74	20211210
+Gast	Supers	Consum	-7.35	20211210
+Gast	Restaurants	pizza	-9	20211210
+Gast	Transport	metro	-2.2	20211208
+Gast	Transport	Sitges	-7.4	20211208
+Gast	Restaurants	Sitges	-29.49	20211208
+Gast	Restaurants	uberets	-8.42	20211207
+Gast	Transport	tren torredembarra	-4.5	20211205
+Gast	Multa	Multa	-50	20211203
+Gast	Pis	Gastos	-100	20211202
+Gast	Restaurants	Pizza	-2.65	20211202
+Gast	Pis	Lloguer 202112	-495	20211201
+Ingrés	Nòmina	Novembre 21	1757.96	20211130
+Gast	Restaurants	guapo	-11.5	20211130
+Gast	Supers	Bonpreu	-11.43	20211130
+Gast	Roba	Camises	-43.5	20211127
+Gast	Restaurants	Sopar roger	-12.5	20211127
+Gast	Transport	metro	-2.2	20211127
+Gast	Transport	tren	-3.3	20211127
+Ingrés	Bizum	iaios	50	20211127
+Gast	Festa	Feina	-25	20211127
+Gast	Altres	tinta i paper	-11.48	20211127
+Ingrés	Bizum	Vivid	10	20211127
+Gast	Roba	SNS	-46	20211126
+Gast	Regals	Pilota max	-14.5	20211125
+Gast	Tecnologia	elevadors	-25.78	20211125
+Gast	Regals	Monica	-237	20211125
+Gast	Supers	Consum	-15.24	20211125
+Gast	Roba	gymshark	-46.35	20211122
+Gast	Restaurants	Dominos+TNYB	-30.8	20211121
+Gast	Supers	Mercadona	-18.73	20211120
+Gast	Festa	Festa etseib	-8.05	20211119
+Gast	Restaurants	Burger	-12.6	20211118
+Gast	Restaurants	sdg	-27.97	20211118
+Gast	Espectacles	moco	-7.5	20211117
+Gast	Regals	Bea	-14.11	20211115
+Gast	Regals	Zoel	-17.23	20211115
+Gast	Restaurants	Dinar Padel SDG	-30	20211115
+Ingrés	Bizum	Ticket	15	20211115
+Ingrés	Bizum	Blanqueo	101	20211114
+Gast	Pis	Simyo octubre	-48.26	20211114
+Gast	Transport	Tren	-13.3	20211113
+Gast	Roba	Paraigées	-20.95	20211113
+Gast	Supers	Consum	-57.16	20211111
+Gast	Transport	t-mobilitat	-4.45	20211110
+Gast	Restaurants	xino	-6	20211110
+Gast	Restaurants	Fucsi	-14.85	20211109
+Gast	Restaurants	Bar ventu	-5.95	20211109
+Gast	Regals	jero	-2.79	20211108
+Gast	Espectacles	Cine	-10.7	20211106
+Gast	Supers	 	-4.86	20211106
+Gast	Restaurants	raro artibisbo	-30	20211106
+Gast	Pis	Plantes	-48	20211105
+Gast	Restaurants	feses clot	-6.8	20211105
+Gast	Festa	festes clot	-22	20211105
+Gast	Esport	Torneig padel	-11.5	20211104
+Gast	Supers	Bonpreu	-9.5	20211104
+Gast	Restaurants	Nepali	-16	20211103
+Gast	Restaurants	Fucsia	-13.5	20211102
+Gast	Pis	Novembre 21	-495	20211101
+Ingrés	Nòmina	Octubre	1527.86	20211031
+Gast	Supers	bonpreu	-22.76	20211031
+Ingrés	Roba	Hm	74.99	20211031
+Gast	Roba	COS i dickies	-115	20211031
+Gast	Transport	tren	-13.3	20211031
+Gast	Bizum	monica	17	20211031
+Gast	Restaurants	bar	-1.8	20211028
+Gast	Supers	bonpreu	-1.78	20211028
+Gast	Supers	foto dni	-5	20211028
+Gast	Restaurants	bar	-5.9	20211026
+Gast	Supers	Bon Area	-20.12	20211025
+Gast	Esport	Padel DIR	-10	20211024
+Ingrés	Ventes	Metcon 6	45	20211022
+Gast	Esport	Bambes Padel	-57.17	20211021
+Gast	Esport	Pala padel	-106.5	20211020
+Gast	Regals	MArcel	-4	20211020
+Gast	Restaurants	TooGood	-3.5	20211019
+Gast	Formacié	mentoria	-52	20211018
+Gast	Supers	Consum	-3.31	20211018
+Gast	Esport	Padel	-7	20211017
+Gast	Transport	t-casual	-11.35	20211017
+Gast	Restaurants	cake	-3.5	20211016
+Gast	Supers	Cosnum	-39.4	20211015
+Ingrés	Roba	hm	7.5	20211014
+Gast	Pis	Simyo septembre	-34.26	20211014
+Gast	Supers	consum	-24.4	20211007
+Gast	Pis	Bazar	-7.45	20211007
+Gast	Esport	Padel	-16.5	20211003
+Gast	Restaurants	Xino Padel	-16	20211003
+Gast	Supers	Caprabo	-8.5	20211002
+Gast	Transport	T Casual	-11.35	20211002
+Gast	Pis	Octubre	-495	20211001
+Gast	Festa	Festa sarria	-21	20211001
+Gast	Restaurants	bk	-10.29	20210930
+Gast	Espectacles	Cine	-3.5	20210930
+Ingrés	Nòmina	Septembre 21	1508.84	20210930
+Gast	Restaurants	Papa johns	-5	20210929
+Gast	Formacié	Bitacademia	-299.99	20210926
+Gast	Supers	Consum	-33.03	20210926
+Gast	Restaurants	Feina	-14	20210926
+Gast	Pis	Xino	-11.5	20210926
+Gast	Restaurants	cockteil + alcohol + taxi	-18	20210925
+Gast	Transport	Gasolina	-49.88	20210924
+Gast	Transport	tren	-6.65	20210924
+Gast	Restaurants	timesburg	-6.25	20210924
+Gast	Restaurants	fucsia	-13.5	20210923
+Gast	Roba	Pantalons	-45	20210922
+Gast	Roba	Jaqueta Zalando	-31.95	20210922
+Gast	Tecnologia	Teclat i auriculars	-21.97	20210922
+Gast	Restaurants	Konig	-15	20210922
+Gast	Supers	Sorli	-13.4	20210921
+Gast	Sabates	Slides falses	-22	20210919
+Gast	Supers	Macarrons	-16	20210919
+Gast	Espectacles	Cine	-8.5	20210919
+Gast	Transport	Tren	-6.2	20210919
+Ingrés	Bizum	Iaios	50	20210919
+Ingrés	Bizum	Blanqueo	122.18	20210918
+Gast	Supers	Fruita	-4.95	20210915
+Gast	Pis	Simyo agost	-19.15	20210914
+Gast	Restaurants	Pau i guillem	-8	20210913
+Gast	Pis	Eines	-5.6	20210913
+Gast	Supers	Consum	-4.3	20210913
+Gast	Pis	Sofé	-220	20210909
+Gast	Regals	dr martens	-103.5	20210909
+Gast	Pis	Dunks Bea	-95	20210909
+Gast	Pis	Lloguer Septembre	-495	20210908
+Gast	Altres	 	-26.48	20210907
+Gast	Restaurants	sdg	-22.4	20210907
+Gast	Gimnàs	MyProtein	-40.79	20210906
+Gast	Restaurants	Japo	-22.57	20210906
+Gast	Supers	fruita	-2.82	20210906
+Gast	Gimnàs	candau	-5.95	20210831
+Ingrés	Bizum	Iaia mobles	500	20210831
+Gast	Gimnàs	dir 12 mesos	-252.76	20210830
+Gast	Supers	 	-22.59	20210830
+Gast	Mobles	bazar	-20.8	20210830
+Gast	Restaurants	mexica	-9.5	20210829
+Gast	Mobles	Ikea	-153	20210828
+Gast	Supers	capravo	-21.39	20210828
+Gast	Jocs	hanabi	-10	20210828
+Ingrés	Bizum	paypal	10	20210828
+Ingrés	Nòmina	Nomina agost	1521.19	20210825
+Gast	Viatges	torre valent	-269.68	20210821
+Gast	Mobles	Ikea	-143.25	20210820
+Gast	Supers	 	-13.17	20210820
+Gast	Supers	 	-22.94	20210819
+Gast	Transport	 	-6.65	20210819
+Ingrés	Inversio	Cardano	100	20210819
+Gast	Restaurants	Berenar eric	-3.7	20210817
+Gast	Pis	Berlin	-75	20210816
+Gast	Pis	Seguro Hogar	-39.19	20210816
+Gast	Roba	samarreta nike	-24	20210816
+Gast	Gimnàs	Decatlon	-21.46	20210816
+Gast	Transport	t casual	-11.35	20210814
+Gast	Pis	Simyo juliol	-18.97	20210813
+Gast	Supers	 	-8.66	20210813
+Gast	Mobles	caixes	-5.97	20210813
+Gast	Supers	 	-4.35	20210813
+Gast	Pis	Fianéa + mig mes 245 + honoraris	-1460.48	20210810
+Gast	Supers	 	-22.44	20210810
+Gast	Restaurants	bk	-10	20210810
+Gast	Restaurants	Monica i andreu ventu	-26	20210807
+Gast	Regals	Gelat onica	-5.5	20210807
+Gast	Transport	 	-11.55	20210806
+Gast	Viatges	Tot tricount	-163	20210805
+Gast	Viatges	REST BEA	-52.5	20210802
+Gast	Viatges	rest bar	-6.5	20210802
+Gast	Pis	Reserva	-495	20210728
+Gast	Regals	Cumple Andreu	-20.35	20210727
+Gast	Transport	 	-11.35	20210727
+Gast	Supers	 	-5.14	20210727
+Gast	Restaurants	 	-20	20210726
+Gast	Gimnàs	Padel	-12.75	20210726
+Gast	Transport	Tren	-6.65	20210726
+Gast	Pis	Pis juliol	-150	20210725
+Ingrés	Nòmina	nomina juliol	1512.58	20210725
+Gast	Supers	 	-20.47	20210722
+Gast	Regals	Regal	-31.96	20210721
+Ingrés	Bizum	Monica san benet	9	20210718
+Gast	Tecnologia	Cascos	-28	20210715
+Gast	Restaurants	Bona Pizza	-25	20210715
+Gast	Pis	Simyo factura juny	-23.29	20210715
+Ingrés	Ticket	Lourdes	46	20210715
+Ingrés	Bizum	Marc	50	20210714
+Gast	Supers	 	-33.67	20210712
+Gast	Viatges	Err	-55.5	20210710
+Gast	Roba	camises	-75	20210707
+Gast	Restaurants	Sopar	-7	20210707
+Gast	Restaurants	esmorzar	-5.4	20210707
+Ingrés	Bizum	Iaios	50	20210707
+Gast	Restaurants	padron	-15	20210706
+Gast	Restaurants	bar	-3.3	20210704
+Gast	Tecnologia	carregador cable	-4.8	20210702
+Gast	Transport	sabadeéé	-3.85	20210702
+Gast	Gimnàs	crossfit juliol	-85	20210701
+Gast	Restaurants	mexica	-18	20210701
+Gast	Pis	Juny	-150	20210630
+Ingrés	Nòmina	juny	1518.94	20210630
+Gast	Viatges	carlos festa	-18	20210627
+Gast	Restaurants	sopar gracia	-22.5	20210626
+Gast	Restaurants	dinar patron	-16	20210625
+Gast	Restaurants	café i gots	-3.3	20210625
+Gast	Restaurants	taqueria	-26	20210624
+Ingrés	Bizum	regal sant	120	20210624
+Gast	Supers	sopar sant joan	-15	20210623
+Gast	Viatges	cotxe cadiz	-152	20210622
+Gast	Restaurants	capricciosa	-15	20210622
+Gast	Restaurants	blanes	-35	20210619
+Gast	Restaurants	sushi	-28	20210617
+Gast	Supers	 	-6	20210617
+Gast	Restaurants	 	-4.8	20210617
+Gast	Supers	 	-4.6	20210617
+Gast	Supers	 	-25.8	20210616
+Gast	Viatges	casa festa	-20	20210616
+Gast	Pis	simyo maig	-18.97	20210616
+Gast	Restaurants	patron	-13.5	20210615
+Gast	Viatges	previ casa agost	-71.42	20210613
+Gast	Transport	tren martorell	-6.6	20210613
+Gast	Roba	bossa carhart	-80.9	20210611
+Gast	Restaurants	tagliatella	-34.38	20210611
+Gast	Supers	 	-11.63	20210610
+Gast	Supers	 	-13.42	20210607
+Gast	Roba	uniqlo	-25	20210604
+Gast	Transport	tren	-13.3	20210604
+Gast	Supers	bonpreu	-12.26	20210604
+Gast	Gimnàs	crossfit juny	-85	20210601
+Ingrés	Renta	renta	163	20210601
+Gast	Pis	maig	-150	20210530
+Gast	Transport	tren	-6.65	20210530
+Ingrés	Nòmina	maig	1518.94	20210530
+Gast	Roba	pantalons	-50	20210528
+Gast	Transport	t-casua	-11.35	20210528
+Gast	Restaurants	konig	-23	20210526
+Gast	Pis	netejador	-6	20210526
+Gast	Viatges	torredembarra	-34.37	20210525
+Gast	Roba	gymshark	-45	20210521
+Gast	Restaurants	 	-36	20210520
+Gast	Tecnologia	impresora	-59.4	20210519
+Gast	Restaurants	 	-16.36	20210516
+Gast	Transport	 	-13.3	20210516
+Gast	Transport	 	-11.35	20210516
+Ingrés	Bizum	iaios	50	20210516
+Gast	Pis	simyo abril	23.47	20210513
+Gast	Supers	 	30.06	20210513
+Gast	Restaurants	 	-10	20210512
+Gast	Restaurants	 	-13.4	20210511
+Ingrés	Bizum	salva bizum	20	20210511
+Gast	Restaurants	dominos	-23.65	20210509
+Gast	Regals	pastis suegros	-18	20210509
+Gast	Transport	 	-11.65	20210509
+Gast	Gimnàs	padel	-9	20210509
+Gast	Supers	mascaretes	-3.95	20210509
+Gast	Restaurants	 	-1.5	20210509
+Gast	Gimnàs	Cinturo+pilota	-14.98	20210506
+Gast	Supers	 	-3.45	20210506
+Gast	Tecnologia	targeta grafica	-98.02	20210505
+Gast	Restaurants	Bona Brasa	-33.5	20210504
+Gast	Supers	consum	-22.17	20210503
+Gast	Tecnologia	pc zoel	-300	20210502
+Gast	Gimnàs	Crossfit maig	-85	20210502
+Gast	Pis	abril	-150	20210428
+Gast	Transport	 	-6.65	20210428
+Gast	Supers	 	-3.6	20210428
+Ingrés	Nòmina	abril	1518.94	20210428
+Gast	Altres	 	-16.05	20210427
+Gast	Supers	 	-19.77	20210426
+Gast	Restaurants	 	-19	20210423
+Gast	Regals	roses	-18	20210423
+Gast	Transport	 	-6.65	20210423
+Gast	Gimnàs	myprotein	-36.87	20210421
+Gast	Supers	 	-20.94	20210420
+Gast	Restaurants	goiko	-15	20210418
+Gast	Mobles	bascula	-9.99	20210418
+Gast	Transport	t-casua	-11.65	20210417
+Gast	Restaurants	dominos	-4.75	20210417
+Ingrés	Beca	variable	227.29	20210415
+Gast	Pis	simyo maré	-16.54	20210414
+Gast	Supers	 	-4.3	20210414
+Gast	Restaurants	 	-4.2	20210412
+Gast	Roba	Jaqueta Holister	-49.4	20210409
+Gast	Supers	 	-24.8	20210409
+Gast	Roba	Metcon 6	-62.38	20210408
+Gast	Supers	 	-13.03	20210407
+Gast	Restaurants	eric	-16	20210405
+Gast	Transport	 	-4.9	20210405
+Gast	Restaurants	la catrina	-26.5	20210402
+Gast	Transport	 	-6.65	20210402
+Gast	Gimnàs	crossfit abril	-85	20210401
+Gast	Pis	neteja	-5	20210331
+Gast	Roba	Sudaderas allyexpress	-21.5	20210330
+Gast	Supers	lejia	-1.45	20210330
+Ingrés	Beca	quantia variable	684	20210330
+Gast	Supers	bonarea	-14.58	20210329
+Gast	Supers	mercadon	-14.16	20210329
+Gast	Pis	pis maré	-150	20210328
+Gast	Restaurants	xines	-14	20210328
+Gast	Transport	 	-13.3	20210328
+Gast	Supers	wc	-3.99	20210328
+Ingrés	Nòmina	 	1518.94	20210328
+Gast	Restaurants	tgb	-6.9	20210325
+Gast	Gimnàs	Fisio	-50	20210323
+Gast	Roba	Pantalons pull	-20	20210322
+Gast	Restaurants	galeta	-6.8	20210322
+Gast	Transport	t-casua	-11.65	20210319
+Gast	Viatges	cadiz casa	-407.35	20210317
+Gast	Viatges	Cadiz vols	-111.5	20210317
+Gast	Roba	reebok	-22.45	20210317
+Gast	Mobles	dutxa	-13.99	20210316
+Gast	Supers	 	-17.28	20210314
+Gast	Restaurants	el jardi	-3.9	20210313
+Gast	Restaurants	menjar braziler	-18	20210312
+Gast	Transport	 	-13.3	20210312
+Gast	Pis	simyo febrer	-21.58	20210311
+Gast	Supers	 	-12.39	20210310
+Gast	Tecnologia	joc switch	-10.49	20210310
+Gast	Restaurants	goiko	-10	20210306
+Gast	Supers	 	-10	20210306
+Gast	Roba	judith	-24	20210304
+Gast	Supers	 	-7.98	20210302
+Ingrés	Bizum	verse	3	20210301
+Gast	Pis	pis febrer	-150	20210228
+Gast	Restaurants	sopar	-12	20210228
+Gast	Transport	tren	-11.55	20210228
+Ingrés	Nòmina	febrer	1518.94	20210228
+Gast	Gimnàs	quota maré crossfit	-85	20210224
+Gast	Supers	 	-2.2	20210224
+Gast	Supers	 	-5.52	20210222
+Gast	Restaurants	donkilo	-26	20210221
+Gast	Transport	t-casua	-11.65	20210220
+Gast	Supers	Aldi	-10	20210219
+Gast	Supers	Aldi	-27.92	20210218
+Gast	Supers	 	-7.49	20210217
+Gast	Espectacles	yo internet	-39.8	20210213
+Gast	Transport	 	-9.8	20210213
+Gast	Altres	 	-6.75	20210213
+Gast	Pis	simyo gener	-18.67	20210212
+Gast	Restaurants	pizzes	-19	20210211
+Gast	Tecnologia	brawl	-5.26	20210211
+Gast	Roba	nike	-97.46	20210210
+Gast	Supers	sirena	-3.82	20210210
+Gast	Regals	regal papa	-40	20210205
+Gast	Supers	 	-33.81	20210205
+Gast	Restaurants	dominos	-10	20210204
+Gast	Supers	 	-7.94	20210201
+Gast	Supers	bonarea	-12.98	20210130
+Gast	Supers	consum	-12.67	20210129
+Gast	Pis	gener	-150	20210126
+Gast	Restaurants	toogood	-2.99	20210126
+Ingrés	Nòmina	gener	1063.27	20210126
+Gast	Gimnàs	cord	-18.99	20210124
+Gast	Transport	 	-6.65	20210124
+Gast	Restaurants	 	-10	20210118
+Gast	Farmacia	farmacia	-9.95	20210118
+Gast	Supers	 	-21.52	20210116
+Gast	Restaurants	 	-14	20210115
+Gast	Tecnologia	cascos feina	-3.94	20210114
+Gast	Supers	mercadon	-44.59	20210111
+Gast	Roba	grmy	-34.8	20210111
+Gast	Pis	simyo des	-17.02	20210111
+Ingrés	Classes	 	65	20210111
+Gast	Transport	bicing	-50	20210107
+Gast	Supers	lidel	-20.13	20210107
+Gast	Pis	pepephone liquidacio	-3.57	20210107
+Ingrés	Bizum	reis lourdes	50	20210106
+Ingrés	Bizum	reis iaia	150	20210106
+Ingrés	Bizum	reis papes	200	20210106
+Gast	Restaurants	el pla	-9	20210104
+Ingrés	Bizum	salva regal	50	20210103
+Gast	Supers	 	-19	20210102
+Ingrés	Bizum	mama regal	100	20210102
+Gast	Gasolina	Gasolina	-29.71	20210101
+Gast	Transport	 	-4.9	20210101
+Gast	Pis	 	-150	20201231
+Gast	Supers	 	-20	20201231
+Gast	Tecnologia	Amazon anual	-18	20201231
+Gast	Transport	 	-6.65	20201229
+Ingrés	Regals	regal iaia	20	20201225
+Gast	Restaurants	guanabara	-50	20201223
+Gast	Transport	 	-6.65	20201223
+Ingrés	Bizum	classes mar	30	20201222
+Ingrés	Nòmina	Nòmina desembre	430.52	20201222
+Gast	Supers	 	-21.39	20201219
+Gast	Restaurants	 	-2	20201218
+Ingrés	Regals	Regal iaios	100	20201216
+Gast	Regals	Regal max	-30	20201215
+Gast	Transport	t casual	-11.35	20201215
+Gast	Transport	autopista	-6.6	20201215
+Gast	Gasolina	Gasolina	-20	20201214
+Gast	Gimnàs	Padel	-5	20201214
+Gast	Restaurants	koing	-4.1	20201214
+Ingrés	Bizum	Marc deu pasta	95.44	20201211
+Gast	Supers	 	-8.47	20201210
+Gast	Transport	 	-6.65	20201210
+Gast	Multes	Multa	-50	20201208
+Gast	Restaurants	 	-9.5	20201208
+Gast	Roba	asos	-70.45	20201207
+Gast	Restaurants	 	-7.5	20201206
+Gast	Restaurants	Goiko	-13	20201205
+Ingrés	Bizum	Salva	20	20201205
+Gast	Bizum	iaia	-17.5	20201204
+Gast	Supers	 	-28.72	20201202
+Gast	Pis	simyo	-10	20201202
+Gast	Tecnologia	hdmi switch i cable	-12.98	20201201
+Gast	Transport	tren	-6.65	20201201
+Gast	Transport	tren	-6.65	20201130
+Gast	Pis	pis novembre	-150	20201129
+Ingrés	Nòmina	 	814	20201129
+Gast	Supers	 	-9.86	20201128
+Gast	Restaurants	 	-4	20201127
+Gast	Restaurants	 	-20	20201125
+Gast	Transport	tcasual	-11.35	20201124
+Gast	Supers	 	-5.35	20201124
+Gast	Supers	capsules marc	-3.35	20201123
+Gast	Supers	 	-1.5	20201123
+Gast	Regals	regals mama zoel	-90.61	20201122
+Gast	Viatges	 	-48.8	20201120
+Gast	Roba	sudadera	-55	20201118
+Ingrés	Classes	Lucia	12	20201118
+Gast	Supers	 	-22.28	20201116
+Ingrés	Classes	 	45	20201116
+Gast	Roba	Pantalons	-80	20201115
+Gast	Mobles	Cadira	-75	20201115
+Gast	Restaurants	Dominos	-13	20201113
+Gast	Mobles	cuadre	-5	20201112
+Gast	Supers	 	-3.1	20201111
+Ingrés	Bizum	Salva+mama	40	20201108
+Gast	Transport	tren x2	-13.3	20201107
+Gast	Tecnologia	Auriculars stylus	-33.11	20201106
+Gast	Supers	 	-2.9	20201106
+Gast	Pis	Movil	-11.9	20201105
+Gast	Supers	 	-4.05	20201104
+Gast	Supers	 	-31.21	20201103
+Gast	Tecnologia	untipo	-3.99	20201103
+Gast	Viatges	Fuerte	-440	20201029
+Gast	Pis	 	-150	20201029
+Ingrés	Nòmina	 	814	20201029
+Gast	Supers	 	-11.71	20201027
+Gast	Restaurants	goiko	-10	20201027
+Ingrés	Bizum	Salva	20	20201026
+Gast	Supers	 	-6.71	20201024
+Gast	Gimnàs	Decathlon abdos	-9.99	20201023
+Gast	Supers	 	-3.5	20201022
+Ingrés	Bizum	Lourdes	500	20201022
+Gast	Supers	 	-26.53	20201021
+Gast	Inversio	Tonteria borsa	-25	20201021
+Gast	Supers	 	-5.95	20201021
+Gast	Supers	 	-4.17	20201020
+Ingrés	Classes	 	30	20201020
+Gast	Restaurants	 	-2.6	20201018
+Gast	Supers	 	-6.49	20201016
+Gast	Transport	 	-4.9	20201016
+Gast	Tecnologia	llapis téctil	-9.98	20201015
+Gast	Supers	 	-6.69	20201013
+Gast	Restaurants	 	-8.2	20201012
+Gast	Restaurants	 	-9	20201011
+Gast	Roba	 	-22.35	20201009
+Gast	Supers	 	-6.75	20201009
+Gast	Roba	 	-6	20201009
+Gast	Gimnàs	Magnesi	-2.99	20201009
+Gast	Transport	 	-11.35	20201008
+Gast	Supers	 	-24.62	20201006
+Gast	Pis	Movil	-7.19	20201006
+Gast	Supers	 	-7.04	20201006
+Gast	Supers	 	-6.07	20201005
+Gast	Transport	 	-4.9	20201004
+Gast	Tattos	Tatto	-52	20201002
+Gast	Transport	 	-6.65	20201002
+Gast	Tecnologia	Pantalla movil	-5.99	20201001
+Gast	Restaurants	 	15.9	20200930
+Gast	Pis	 	-150	20200929
+Ingrés	Nòmina	 	814	20200929
+Gast	Transport	 	-11.39	20200928
+Gast	Supers	 	-5.69	20200927
+Gast	Transport	 	-6.2	20200926
+Gast	Supers	 	-3.49	20200926
+Ingrés	Iaios	 	100	20200926
+Gast	Restaurants	 	-2.99	20200925
+Gast	Roba	 	-38.08	20200924
+Gast	Restaurants	 	-12.6	20200924
+Gast	Altres	 	14.03	20200924
+Gast	Altres	Movil	-400	20200923
+Gast	Restaurants	 	-10	20200923
+Gast	Transport	 	-6.65	20200921
+Gast	Restaurants	 	-6.3	20200921
+Gast	Viatges	 	-59.41	20200918
+Gast	Roba	 	-67.4	20200917
+Gast	Transport	 	-4.9	20200917
+Gast	Bizum	 	-4	20200917
+Gast	Supers	 	-6.16	20200915
+Gast	Supers	 	-34.18	20200914
+Ingrés	Bizum	 	10.3	20200912
+Gast	Transport	 	-6.65	20200911
+Gast	Viatges	 	-22.7	20200910
+Gast	Bizum	 	-2.25	20200910
+Ingrés	ING	 	0.17	20200910
+Ingrés	Bizum	 	5.14	20200910
+Gast	Viatges	 	-60.54	20200909
+Gast	Pis	Movil	-7.77	20200909
+Gast	Viatges	 	-2.8	20200909
+Gast	Transport	 	-5.15	20200904
+Ingrés	Bizum	 	20	20200904
+Gast	Supers	 	-9.63	20200903
+Gast	Restaurants	 	-3	20200903
+Gast	Transport	 	-1.25	20200903
+Gast	Roba	 	-14.38	20200902
+Gast	Transport	 	-0.35	20200902
+Gast	Supers	 	-6.35	20200901
+Ingrés	Bizum	 	3.25	20200901
